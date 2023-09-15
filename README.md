@@ -6,9 +6,9 @@ FFmpeg 2.8.1+ is required.
 
 ## Installation
 
-git clone https://github.com/clausgebel2/audibleAudioExtract.git
-cd audibleAuthenticationCode
-sh install
+git clone https://github.com/clausgebel2/audibleAudioExtract.git  
+cd audibleAudioExtract
+sh install  
 
 ## Usage
 
