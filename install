@@ -1,0 +1,5 @@
+#!/bin/bash
+git clone https://github.com/inAudible-NG/tables.git
+git clone https://bitbucket.org/kleberj/aax2mp3.git
+
+
