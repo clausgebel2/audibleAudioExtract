@@ -7,12 +7,14 @@ FFmpeg 2.8.1+ is required.
 ## Installation
 
 git clone https://github.com/clausgebel2/audibleAudioExtract.git  
-cd audibleAudioExtract
+cd audibleAudioExtract  
 sh install  
+chmod +x audibleAudioExtract  
 
 ## Usage
-
-python audibleAudioExtract.py *aax_file_path.aax*
+audibleAudioExtract *aax_file_path*  
+**or**  
+python audibleAudioExtract.py *aax_file_path*  
 
 ## Info
 
