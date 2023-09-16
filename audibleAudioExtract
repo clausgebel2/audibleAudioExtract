@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then
+    echo "Usage: $0 <aax_file>"
+    exit 1
+fi
+
+file="$1"
+
+if [ ! -f "$file" ]; then
+    echo "File $file does not exist."
+    exit 1
+fi
+
+python audibleAudioExtract.py "$file"
